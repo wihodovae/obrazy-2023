@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap");
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    cursor: default;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    max-width: 80vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.heading-1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.heading-2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.description {
+    margin: 1rem 0;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.description:first-of-type {
+    margin-top: 3rem;
+}
+
+.section {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    text-decoration: none;
+    width: 8rem;
+    height: 2.5rem;
+    color: black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    font-weight: 300;
+    transition: all linear 0.2s;
+}
+
+.icon {
+    margin-left: 0.5rem;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+  }
+  
+  .photo-description {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .button-container {
+    display: flex;
+    column-gap: 2rem;
+    margin: 0.5rem;
+  }
+  
+  .photo {
+    width: 65%;
+  }
+
